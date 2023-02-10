@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    position: relative;
+    background-image: url(../project-1/mountain.jpg);
+    background-size: cover;
+}
+
+.form{
+    border: none;
+    box-sizing: border-box;
+    padding: 35px;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 20px;
+    position: absolute;
+    width: 530px;
+    height: 610px;
+    background: linear-gradient(175deg, rgba(155,173,228,1) 0%, rgba(173,212,145,1) 100%);
+    transition: 3s;
+}
+
+.image{
+    border-radius: 100px;
+}
+
+.field{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 15px 0px 15px 80px;
+    width: 470px;
+    border-radius: 10px;
+    border: 2px solid silver;
+}
+
+.fa-envelope{
+    position: absolute;
+    font-size: 35px;
+    padding: 20px;
+}
+
+.fa-lock{
+    position: absolute;
+    font-size: 35px;
+    padding: 20px;
+}
+
+.fa-eye{
+    position: absolute;
+    font-size: 35px;
+    padding: 20px;
+    margin-left: 390px;
+}
+
+.login{
+    display: block;
+    padding: 17px;
+    margin-top: 10px;
+    font-size: 15px;
+    width: 468px;
+    color: white;
+    background-size: contain;
+    background-image: url(../Project-1/image-gradient.jpg);
+    background-position: center;
+    font-weight: bold;
+    border: none;
+    transition: 1s;
+    border-radius: 10px; 
+}
+
+.login:hover{
+    background-image: url(../Project-1/image-gradient.jpg);
+    background-position: right;
+}
+
+.forget{
+    font-weight: bold;
+    display: block;
+    color: grey;
+    margin: 10px 0px;
+    text-decoration: none;
+}
+
+.account{
+    font-weight: bold;
+    display: inline-block;
+    color: grey;
+    margin-top: 30px;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+.signup{
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+
