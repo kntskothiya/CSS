@@ -1,0 +1,278 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 90px;
+    background-color: rgb(225, 225, 225);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 40px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.logo1{
+    height: 20px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    display: inline-block;
+    padding: 8px 0px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.logo-div{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    color: rgb(246, 154, 34);
+}
+
+.mega-menu-container{
+    display: inline-block;
+    padding: 28px 0px;
+}
+
+.mega-menu-content{
+    position: absolute;
+    background: linear-gradient(90deg, rgba(116,120,235,1) 0%, rgba(36,16,177,1) 100%);
+    display: none;
+    width: 100%;
+    align-items: center;
+    top: 85px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+.image{
+    margin: 55px 400px;
+}
+.about{
+    border-bottom: 2px dashed silver;
+    cursor: pointer;
+    width: 130px;
+    color: white;
+}
+
+.about-dropdown-btn{
+    color: rgb(39, 39, 176);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-dropdown-btn:hover{
+   color: rgb(246, 154, 34);
+}
+
+.detail{
+    margin-top: -40px;
+    margin-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.details{
+    margin-right: 500px;
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mega-menu-content > div{
+    padding: 8px;
+    width: 200px;
+}
+
+.mega-menu-container:hover .mega-menu-content{
+    display: flex;
+}
+
+.csr{
+    margin-top: 50px;
+}
+
+.product-dropdown-btn{
+    color: rgb(39, 39, 176);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-dropdown-btn:hover{
+    color: rgb(246, 154, 34);
+}
+
+.nav-link1{
+    color: white;
+    text-decoration: none;
+    width: 500px;
+    display: inline-block;
+    padding: 2px 0;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.nav-link1:hover{
+    color: rgb(246, 154, 34);
+}
+
+.sub-menu{
+    display: block;
+    margin-bottom: 5px;
+    height: auto;
+    padding: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-dropbox{
+    display: none;
+    background: linear-gradient(90deg, rgba(116,120,235,1) 0%, rgba(36,16,177,1) 100%);
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    margin-left: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-dropbox > span {
+    display: block;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-menu:hover .sub-dropbox{
+    display: block;
+    
+}
+
+.product2{
+    margin-left: 18px;
+    border-bottom: 2px dashed silver;
+    cursor: pointer;
+    width: 130px;
+    color: whitse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mega-menu-container1{
+    display: inline-block;
+    padding: 10px 0px;
+}
+
+.mega-menu-content1{
+    position: absolute;
+    width: 300px;
+    padding: 10px ;
+    background: linear-gradient(90deg, rgba(116,120,235,1) 0%, rgba(36,16,177,1) 100%);
+    display: none;
+    top: 85px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.detail1 > a {
+    color: white;
+    text-decoration: none;
+}
+
+.product{
+    position: relative;
+    padding: 30px 0px;
+    color: white;
+}
+
+
+.mega-menu-content1 > div{
+    padding: 8px;
+    width: 200px;
+}
+
+.mega-menu-container1:hover .mega-menu-content1{
+    display: block;
+}
+
+.investor-dropdown-btn{
+    color: rgb(39, 39, 176);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.investor-dropdown-btn:hover{
+    color: rgb(246, 154, 34);
+}
+
+.investor-container{
+    display: inline-block;
+    padding: 28px 0;
+}
+
+.investor-content{
+    display: none;
+    position: absolute;
+    width: 1200px;
+    background: linear-gradient(90deg, rgba(116,120,235,1) 0%, rgba(36,16,177,1) 100%);
+    right: 0;
+    left: 0;
+    top: 86px;
+    margin: 0 auto;
+}
+
+.investor-container:hover .investor-content{
+    display: flex;
+}
+
+.mega-invest{
+    color: white;
+    margin: 10px;
+}
+
+.mega-invest > a{
+    display: block;
+    margin: 15px;
+    
+}
+
+.i1{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.i1:hover{
+    color: rgb(246, 154, 34);
+}
+
+.menu-title{
+    border-bottom: 2px dashed silver;
+    margin-left: 15px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fa-magnifying-glass{
+    font-size: 20px;
+    cursor: pointer;
+}
